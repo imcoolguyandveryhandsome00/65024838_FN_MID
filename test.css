@@ -1,39 +1,31 @@
-h1{
-    font-size: medium;
-    margin-right: 20;
+#signin{
+    margin: 100;
+    float: 20;
+    color: black;
+   right:200;
+    text-align: center;
 }
-header,footer{
+#email{
+    color: gray;
+    text-align: center;
+}
+#password{
+    color: gray;
+    text-align: center;
+}
+#login{
+    color: white;
     background-color: gray;
+    width: 200;
+    height: 20;
+   text-align: right;
+}   
+#loginwithgoogle{
+    color: gray;
+    text-align: center;
 }
-aside{
-    background-color: brown;
-}
-#article-1{
-    background-color: antiquewhite;
-}
-#article-2{
-    background-color: blueviolet;
-}
-
-header>a:hover[href]{
-    background-color: aqua;
-}
-table{
-    background-color: aliceblue;
-}
-th{
-    border:solid gray ;
-}
-td{
-    border:solid green;
-}
-tr:first-child{
-    background-color: orange;
-}
-tr:last-child{
-    background-color: blue;
-}
-h6{
-    border-left: 20;
-    margin-top: 20;
+#signinwithgoogle{
+    color: gray;
+    text-align: center;
+    left: 50;
 }
