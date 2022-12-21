@@ -1,0 +1,39 @@
+h1{
+    font-size: medium;
+    margin-right: 20;
+}
+header,footer{
+    background-color: gray;
+}
+aside{
+    background-color: brown;
+}
+#article-1{
+    background-color: antiquewhite;
+}
+#article-2{
+    background-color: blueviolet;
+}
+
+header>a:hover[href]{
+    background-color: aqua;
+}
+table{
+    background-color: aliceblue;
+}
+th{
+    border:solid gray ;
+}
+td{
+    border:solid green;
+}
+tr:first-child{
+    background-color: orange;
+}
+tr:last-child{
+    background-color: blue;
+}
+h6{
+    border-left: 20;
+    margin-top: 20;
+}
